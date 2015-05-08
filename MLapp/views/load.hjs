@@ -1,0 +1,42 @@
+{{> header}}
+	<div>
+	 <span><h2>PILOT HOME application, built on NodeJS, Express, Hogan and:</h2><img src="./MarkLogic-icon.png" alt="MarkLogic" width=180></span>	
+	</div>
+	<ul>
+		<li><a href="/">Back to Home</a></li>
+	</ul>
+	 
+    <h1>{{ title }}</h1> 
+    <h2>LOAD the documents in the DB</h2>
+		
+    <form action="/load" method="post" class="form-horizontal">
+        <div class="control-group">
+            <label for="docs_to_load" class="control-label">Load documents of type (JSON):</label>
+            <div class="controls">
+                <input id="docs_to_load" type="text" name="docs_to_load" placeholder="JSON">
+            </div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Load documents</button>&nbsp; 
+
+        </div>
+    </form>
+	<!--
+	<p>{{msg_load}}</p>
+	-->
+    </br></br></br>
+	<h2>REMOVE the documents from the DB</h2>
+    <form action="/load" method="post" class="form-horizontal">
+        <div class="control-group">
+            <label for="docs_to_remove" class="control-label">Remove the documents from the DB (JSON or ALL)</label>
+            <div class="controls">
+                <input id="docs_to_remove" type="text" name="docs_to_remove" placeholder="JSON or ALL">
+            </div>
+        </div>
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Remove documents</button>&nbsp; 
+
+        </div>
+    </form>
+	
+	

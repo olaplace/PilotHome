@@ -1,0 +1,52 @@
+{{> header}}
+	<div>
+	 <span><h2>PILOT HOME application, built on NodeJS, Express, Hogan and:</h2><img src="./MarkLogic-icon.png" alt="MarkLogic" width=180></span>	
+	</div>
+	<ul>
+		<li><a href="/">Back to Home</a></li>
+	</ul>
+	 
+    <h1>{{ title }}</h1>
+		
+    <form action="/results" method="post" class="form-horizontal">
+        <div class="control-group">
+			<h3>Domain to search for (health / energy / safety):</h3>
+            <div class="controls">
+				<!--
+                <input id="domain_query" type="text" name="domain_query" placeholder="String Query to search">
+				-->	
+				<SELECT name="domain_query" size="1">
+				<OPTION>health
+				<OPTION>energy
+				<OPTION>safety
+				</SELECT>
+            </div>
+
+        </div>
+        <div class="control-group">
+			<h3>Search only where alerts raised (Yes/No) for the specified domain:</h3>
+            <div class="controls">
+                <input type="checkbox" id="alert_query" name="alert_query" value="Yes">
+            </div>
+        </div>
+        <div class="control-group">
+			<h3>Documents that contains this tag:</h3>
+            <div class="controls">
+                <input id="tag_query" type="text" name="tag_query" placeholder="Tag to search">
+            </div>
+        </div>
+        <div class="control-group">
+			<h3>Order the result's search per alphabetical person name:</h3>
+            <div class="controls">
+		  	    <input type="checkbox" id="order_query" name="order_query" value="Yes"> Sort by person's name<br>
+            </div>
+        </div>		
+
+        
+		<div class="form-actions">
+            <button type="submit" class="btn btn-primary">Search</button>&nbsp; 
+
+        </div>
+    </form>
+	
+	

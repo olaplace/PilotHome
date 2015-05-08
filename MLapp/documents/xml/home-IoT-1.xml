@@ -1,0 +1,9 @@
+<feature id="1703188" class="School">
+  <name>Ralph Waldo Emerson Junior High School</name>
+  <state id="06">CA</state>
+  <county id="113">Yolo</county>
+  <lat dms="383306N">38.5515731</lat>
+  <long dms="1214639W">-121.7774624</long>
+  <elevation>17</elevation>
+  <map>Merritt</map>
+</feature>

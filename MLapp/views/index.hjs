@@ -1,0 +1,10 @@
+{{> header}}
+	<div>
+	 <span><h2>PILOT HOME application, built on NodeJS, Express, Hogan and:</h2><img src="./MarkLogic-icon.png" alt="MarkLogic" width=180></span>	
+	</div>
+	<ul>
+		<li><a href="/load">Load or Remove documents in MarkLogic DB</a></li>
+		<li><a href="/search">Search documents in MarkLogic DB</a></li>
+	</ul>
+	
+	<h1>{{ title }}</h1>

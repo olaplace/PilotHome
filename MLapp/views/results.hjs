@@ -1,0 +1,42 @@
+{{> header}}
+	<div>
+	 <span><h2>PILOT HOME application, built on NodeJS, Express, Hogan and:</h2><img src="./MarkLogic-icon.png" alt="MarkLogic" width=180></span>	
+	</div>
+	<ul>
+		<li><a href="/">Back to Home</a></li>
+		<li><a href="/search">Back to search</a></li>
+	</ul>
+				
+	<h1>{{ title }} </h1>				
+		<div>
+		  <table>
+		      <thead>
+		        <tr>
+		          <th>DB</th>
+		          <th>Doc's uri</th>
+				  <th><font color="red">ALERT situation</th>
+				  <th>Person name</th>
+				  <th>Phone number</th>
+				  <th>Person Address</th>
+		        </tr>
+		      </thead>
+		      <tbody>
+				  {{#resdocs}}
+				       <tr>
+				   	        <td>
+				  				<img src="./favicon.ico" alt="MarkLogic" width=20>				 							</td>
+				        	<td>{{uri}}</td>
+				        	<td><font color="red">{{alert}}</td>
+							<td>{{person}}</td>
+							<td>{{phone}}</td>
+							<td>{{address}}</td>
+				      </tr>
+				  {{/resdocs}}
+			   </tbody>
+		  </table>
+		</div>
+
+	<h2>All document(s) content:</h2>
+	<p>{{ docstring }}</p>
+
+
