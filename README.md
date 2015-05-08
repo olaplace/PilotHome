@@ -30,7 +30,7 @@ Then, it is possible to request and search the database in different ways like s
 ### Prerequisite
 You need to have:
 - A running MarkLogic database 
-- node.js installed (npm is installed with node.js)
+- node.js installed (npm is installed with node.js). Node can be installed from here: *https://nodejs.org/*
 - Express installed
 
 ### Installation
