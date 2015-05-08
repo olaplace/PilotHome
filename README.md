@@ -1,4 +1,4 @@
-# PilotHome
+# PilotHome (MLapp)
 
 PilotHome is a MarkLogic Enterprise DB and NodeJS (Express + Hogan) demo. It is based on those products:
 
@@ -7,8 +7,10 @@ PilotHome is a MarkLogic Enterprise DB and NodeJS (Express + Hogan) demo. It is 
   - Express 4.12.1
   - Hogan 0.0.6
 
-The NodeJS application name is MLapp.
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site] [1]:
+The NodeJS application name is "MLapp".
+
+## MLapp functional goal
+The functional global context is about piloting Internet of Things within a house or flat.
 
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
@@ -101,19 +103,11 @@ License
 MIT
 
 
-**Free Software, Hell Yeah!**
+**Free Software, Enjoy the MarkLogic demo!**
 
-[john gruber]:http://daringfireball.net/
-[@thomasfuchs]:http://twitter.com/thomasfuchs
-[1]:http://daringfireball.net/projects/markdown/
-[marked]:https://github.com/chjj/marked
-[Ace Editor]:http://ace.ajax.org
+
 [node.js]:http://nodejs.org
-[Twitter Bootstrap]:http://twitter.github.com/bootstrap/
-[keymaster.js]:https://github.com/madrobby/keymaster
-[jQuery]:http://jquery.com
-[@tjholowaychuk]:http://twitter.com/tjholowaychuk
+[Twitter Hogan]:http://twitter.github.io/hogan.js/
 [express]:http://expressjs.com
-[AngularJS]:http://angularjs.org
-[Gulp]:http://gulpjs.com
+
 
